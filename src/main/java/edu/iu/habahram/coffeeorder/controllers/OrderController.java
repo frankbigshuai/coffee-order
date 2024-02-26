@@ -19,7 +19,7 @@ public class OrderController {
         this.orderRepository = orderRepository;
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public ResponseEntity<?> add(@RequestBody OrderData order) {
         try {
             Receipt receipt = orderRepository.add(order);
