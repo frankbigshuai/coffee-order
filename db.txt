@@ -1,0 +1,11 @@
+61,2.04,Espresso, Milk, Mocha
+74,2.29,Espresso, Milk, Mocha, Whip
+21,2.29,Espresso, Milk, Mocha, Whip
+90,2.29,Espresso, Milk, Mocha, Whip
+99,2.69,Dark roast, Milk, Mocha
+72,2.69,Dark roast, Milk, Mocha
+54,2.96,Dark roast, Milk, Mocha, Soy
+83,3.21,Dark roast, Milk, Mocha, Soy, Whip
+82,1.99,Dark roast
+16,1.99,Dark roast
+65,1.99,Dark roast

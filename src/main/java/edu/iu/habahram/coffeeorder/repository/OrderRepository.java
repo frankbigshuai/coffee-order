@@ -62,7 +62,6 @@ public class OrderRepository {
         }
         Random random = new Random();
         Receipt receipt = new Receipt(random.nextInt(100) + 1,beverage.cost(), beverage.getDescription());
-
         Path path = Paths.get(DATABASE_NAME);
         String data = receipt.toLine();
         appendToFile(path, data + NEW_LINE);
