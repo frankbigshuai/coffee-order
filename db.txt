@@ -25,3 +25,7 @@
 4,1.89,Espresso, Mocha, Whip
 44,1.64,Espresso, Mocha
 30,1.74,Espresso, Milk
+4,2.51,Dark roast, Soy, Whip
+27,1.74,Espresso, Milk
+34,1.74,Espresso, Milk
+35,1.91,Espresso, Mocha, Soy
