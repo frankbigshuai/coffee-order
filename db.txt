@@ -29,3 +29,19 @@
 27,1.74,Espresso, Milk
 34,1.74,Espresso, Milk
 35,1.91,Espresso, Mocha, Soy
+81,1.92,HouseBlend, Soy
+86,1.68,Decaf, Milk
+60,2.22,HouseBlend, Soy, Mocha
+40,2.29,Dark roast, Mocha
+18,2.54,Dark roast, Whip, Mocha
+9,2.20,Decaf, Soy, Milk, Whip
+49,1.99,Dark roast
+62,1.28,Decaf
+6,1.65,HouseBlend
+97,2.24,Dark roast, Whip
+19,2.04,Espresso, Milk, Mocha
+1,1.34,Espresso
+39,2.17,HouseBlend, Soy, Whip
+49,1.89,Espresso, Mocha, Whip
+41,1.64,Espresso, Mocha
+6,1.74,Espresso, Milk
