@@ -19,6 +19,8 @@ import java.util.List;
 
 @Component
 public class CustomerRepository {
+    private static final String NEW_LINE = System.lineSeparator();
+    private static final String DATABASE_NAME = "data/customers.txt";
     private static final Logger LOG =
             LoggerFactory.getLogger(CustomerRepository.class);
     public CustomerRepository() {
@@ -31,8 +33,7 @@ public class CustomerRepository {
         }
     }
 
-    private static final String NEW_LINE = System.lineSeparator();
-    private static final String DATABASE_NAME = "data/customers.txt";
+
     private static void appendToFile(Path path, String content)
             throws IOException {
         Files.write(path,
