@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-copieakf7o1s73e05il0-a:5432/dbname_cvgn
+    username: dbname_cvgn_user
+    password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always

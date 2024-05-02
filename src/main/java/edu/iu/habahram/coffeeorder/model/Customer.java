@@ -1,22 +1,49 @@
 package edu.iu.habahram.coffeeorder.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+import java.util.Objects;
+
+@Entity
+@Table(schema = "coffee")
+public final class Customer {
+    @Id
+    private  String username;
+    private  String password;
+    private  String email;
 
 
-public record Customer(String username,
-                       String password,
-                       String email) {
-    public String toLine() {
-        return String.format("%1$s,%2$s,%3$s", username(), password(), email());
+    public Customer(String username,
+                    String password,
+                    String email) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
     }
-    public String toLine(String username) {
-        return String.format("%1$s,%2$s,%3$s", username, password(), email());
+
+    public String getUsername() {
+        return username;
     }
 
-    public static Customer fromLine(String line) {
-        String[] tokens = line.split(",");
-        return new Customer(tokens[0], tokens[1], tokens[2]);
+    public void setUsername(String username) {
+        this.username = username;
     }
 
+    public String getPassword() {
+        return password;
+    }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
-
